@@ -1,5 +1,16 @@
-This project is meant to play around with React, Hooks and [ Mary Rose Cook's implementation of a Drum machine ](https://github.com/maryrosecook/drum-machine)
+## Thanks
+This project is meant to play around with React, Hooks and  Mary Rose Cook's [implementation](https://github.com/maryrosecook/drum-machine) of a Drum machine. Thanks a lot Mary Rose Cook for the inspiration and the clear example!
 
+My version looks like this:
+
+![Alt text](/src/screenshot.png?raw=true )
+
+## Wishlist
+[] play / pause button
+[] choose speed button
+[] tweak sounds option
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
