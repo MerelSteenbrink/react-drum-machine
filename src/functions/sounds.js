@@ -3,7 +3,7 @@
 export function note(audio, frequency) {
     return function() {
       var duration = 1;
-        console.log(" a note!!! with freq", frequency)
+   
       // Create the basic note as a sine wave.  A sine wave produces a
       // pure tone.  Set it to play for `duration` seconds.
       var sineWave = createSineWave(audio, duration);
@@ -35,7 +35,6 @@ export function note(audio, frequency) {
 export function kick(audio) {
     return function() {
       var duration = 2;
-      console.log("kick!!!!")
   
       // Create the basic note as a sine wave.  A sine wave produces a
       // pure tone.  Set it to play for `duration` seconds.

@@ -28,14 +28,19 @@
 }
 
 .beat{
-  background-color: cyan;
   padding: 0px, 10px 0px, 10px;
+  background-color: cyan;
 }
 
 .boom{
   background-color: darkmagenta;
 }
 
+.base{
+  background-color: darkcyan;
+}
+
 .clicked{
   background-color: yellow;
 }
+

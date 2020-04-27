@@ -7,8 +7,8 @@ const Machine = () => {
 
   useEffect(() => {
     let id = setInterval(() => {
-      setCount((count + 1)%15);
-    }, 800);
+      setCount((count + 1) % 15);
+    }, 200);
     return () => clearInterval(id);
   });
 
@@ -16,7 +16,7 @@ const Machine = () => {
     <div className="machine">
       <h3>{"Drum Machine"}</h3>
       <p>{count}</p>
-      <Soundboard count={count}/>
+      <Soundboard count={count} />
       <Beat count={count} />
     </div>
   );
