@@ -10,7 +10,6 @@ const Soundboard = ({count}) => {
       {SOUNDS.map((sound) => {
         return (
           <div className="track">
-            {" "}
             {TRACK.map((n) => (
               <Block id={n} sound={sound} key={n} count={count}/>
             ))}{" "}
