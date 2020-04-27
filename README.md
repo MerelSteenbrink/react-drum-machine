@@ -6,9 +6,9 @@ My version looks like this:
 ![Alt text](/src/screenshot.png?raw=true )
 
 ## Wishlist
-[] play / pause button
-[] choose speed button
-[] tweak sounds option
+- [ ] play / pause button
+- [ ] choose speed button
+- [ ] tweak sounds option
 
 ## Create React App
 
