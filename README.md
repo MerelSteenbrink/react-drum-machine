@@ -1,3 +1,6 @@
+This project is ment to play around with React and [ Mary Rose Cook's implementation of a Drum machine ](https://github.com/maryrosecook/drum-machine)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
