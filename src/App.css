@@ -1,38 +1,33 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.machine{
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  margin: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blokje{
+  width: 20px;
+  height:20px;
+  background-color: beige;
+  margin: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.track{
+  display: flex;
+  flex-direction: row;
+}
+.sound{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.beat{
+  background-color: cyan;
+  padding: 0px, 10px 0px, 10px;
 }
